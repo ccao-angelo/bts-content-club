@@ -1,0 +1,68 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fafafa;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><text y='20' font-size='20'>💜</text></svg>"), auto;
+}
+
+button, a {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><text y='20' font-size='20'>👆</text></svg>"), pointer !important;
+}
+
+.app-container {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: #4a148c;
+}
+
+.site-header h1 {
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+  letter-spacing: -1px;
+}
+
+.site-header p {
+  font-size: 1.2rem;
+  margin: 0 0 30px 0;
+  color: #666;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.filter-button {
+  background-color: white;
+  color: #5a2e6b;
+  border: 2px solid #d8b4e2;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+  background-color: #f3e5f5;
+}
+
+.filter-button.active {
+  background-color: #7b1fa2;
+  color: white;
+  border-color: #7b1fa2;
+  box-shadow: 0 2px 8px rgba(123, 31, 162, 0.3);
+}  
