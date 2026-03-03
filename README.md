@@ -36,9 +36,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-<img src="https://i.imgur.com/o6VgBuS.gif" title='Video Walkthrough' width='600' alt='Video Walkthrough' />
-
+![Chau Cao  BTS Content Club Website Walkthrough](https://github.com/user-attachments/assets/b6b8a9ca-6ad2-41c7-b871-57913db56c50)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
